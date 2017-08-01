@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://shanegibney.github.io/mathapp/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href https://s1728k.github.io/myblog/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
