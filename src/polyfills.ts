@@ -33,6 +33,7 @@
 // import 'core-js/es6/map';
 // import 'core-js/es6/weak-map';
 // import 'core-js/es6/set';
+import 'mdn-polyfills/Object.assign';
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
@@ -40,6 +41,9 @@
 /** Evergreen browsers require these. **/
 import 'core-js/es6/reflect';
 import 'core-js/es7/reflect';
+import "core-js/client/shim"; // or load it before other angular2 & zone.js stuff
+import "zone.js";
+import "reflect-metadata";
 
 
 /**

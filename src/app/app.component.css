@@ -1,0 +1,20 @@
+.footer-btn{
+  background: lightblue; border: 0px solid red; text-align: center; height: 10vh; font-size: 25px;
+}
+.footer-btn:hover{
+  background: indigo;
+  cursor: pointer;
+}
+
+.action-btn:nth-child(odd){
+  background: lightblue; border: 5px solid white; border-bottom: 0px; text-align: center; height: 20vh; font-size: 25px;
+  border-collapse: collapse;
+}
+.action-btn:nth-child(even){
+  background: rgba(200, 54, 54, 0.3); border: 5px solid white; border-left: 0px; border-bottom: 0px; text-align: center; height: 20vh; font-size: 25px;
+  border-collapse: collapse;
+}
+.action-btn:hover{
+  background: indigo;
+  cursor: pointer;
+}
